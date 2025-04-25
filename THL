@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THL TRANSPORTES HERRERA LOGÍSTICA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #0c4c8a;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #083b6e;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #0c4c8a;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #0c4c8a;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #083b6e;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #0c4c8a;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>THL TRANSPORTES HERRERA LOGÍSTICA</h1>
+    <p>Soluciones de transporte y logística de confianza</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="container">
+    <section id="inicio" class="section">
+        <h2>Bienvenidos a THL</h2>
+        <p>En THL Transportes Herrera Logística, ofrecemos soluciones integrales para el transporte de carga a nivel nacional e internacional. Nuestro compromiso es brindar un servicio puntual, seguro y eficiente.</p>
+    </section>
+
+    <section id="servicios" class="section">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Transporte de carga pesada y liviana</li>
+            <li>Logística y distribución</li>
+            <li>Seguimiento en tiempo real</li>
+            <li>Almacenamiento temporal</li>
+        </ul>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        
+        <form action="mailto:tuemail@dominio.com" method="POST" enctype="text/plain">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <textarea name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <h3>Ubicación</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.924963303199!2d-74.08175328573527!3d4.609710343918334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99c67f892db7%3A0xd7d8e0a8c59ae94c!2sBogot%C3%A1%2C%20Colombia!5e0!3m2!1ses!2sco!4v1616020744413!5m2!1ses!2sco"
+            allowfullscreen=""
+            loading="lazy"
+        ></iframe>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 THL TRANSPORTES HERRERA LOGÍSTICA. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
